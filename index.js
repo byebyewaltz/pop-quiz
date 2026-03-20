@@ -38,9 +38,7 @@ function startQuiz() {
         if (userAnswer === q.correctAnswer) {
             score++;
             alert("Correct!");
-        } else {
-            alert(`Wrong! The correct answer was ${q.correctAnswer}.`);
-        }
+        } 
     }
 
     const totalQuestions = questions.length;
